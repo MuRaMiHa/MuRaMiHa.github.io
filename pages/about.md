@@ -1,20 +1,14 @@
 ---
 layout: page
-title: About
+title: О нас
 permalink: /about/
 weight: 3
 ---
 
-# **About Me**
+# **О нас**
 
-Hi I am **{{ site.author.name }}** :wave:,<br>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-
-<div class="row">
-{% include about/skills.html title="Programming Skills" source=site.data.programming-skills %}
-{% include about/skills.html title="Other Skills" source=site.data.other-skills %}
-</div>
-
-<div class="row">
-{% include about/timeline.html %}
-</div>
+<p>Добро пожаловать в чернильную обитель <strong>Mr. Bendy</strong>.<br>
+<p>Моды серии "World of Tanks Classic" и "Blitz Classic", направленные на возвращение ощущений "тех самых танков" - наше дело. 
+<p>И мы его делали, делаем и будем делать.
+<p>Результаты и будущие наработки можно увидеть на нашем Ютуб-канале.</p>
+<p>Присоединяйся!</p>
