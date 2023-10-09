@@ -100,3 +100,8 @@ telegram:
   url   : https://t.me/
   icon  : fab fa-telegram
   color : 1da1f2
+
+discord:
+  url   : https://discord.gg/
+  icon  : fab fa-discord
+  color : 7289DA

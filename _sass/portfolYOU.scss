@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+// Custom Fonts
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import "variables",
+        "404",
+        "base",
+        "blog",
+        "footer",
+        "landing",
+        "navbar",
+        "markdown",
+        "projects",
+        "timeline",
+        "autumn",
+        "theme",
+        "theme-dark";
+
+.btn-outline-primary {
+    color: #ffffff;
+    border-color: #a70000;
+    }
+
+.btn-outline-primary:hover {
+    color: #fff;
+    background-color: #a70000;
+    border-color: #a70000;
+}
