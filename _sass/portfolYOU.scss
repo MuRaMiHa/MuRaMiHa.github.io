@@ -18,12 +18,22 @@
         "theme",
         "theme-dark";
 
+body {
+    color: #ffffff;
+}
+
 .btn-outline-primary {
     color: #ffffff;
     border-color: #a70000;
-    }
+}
 
 .btn-outline-primary:hover {
+    color: #fff;
+    background-color: #a70000;
+    border-color: #a70000;
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled).active, .btn-outline-primary:not(:disabled):not(.disabled):active, .show>.btn-outline-primary.dropdown-toggle {
     color: #fff;
     background-color: #a70000;
     border-color: #a70000;
